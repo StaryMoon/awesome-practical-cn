@@ -2,23 +2,23 @@
 
 ![macOS 效率工具清单](../../assets/screenshots/macos-productivity.png)
 
-> 分类：**macOS / 效率**
+> Category: **macOS / 效率**
 >
-> 适合：Mac 用户、学生、开发者、研究生
+> Audience: Mac 用户、学生、开发者、研究生
 >
-> 截图来源：[https://www.raycast.com/](https://www.raycast.com/)
+> Screenshot: [https://www.raycast.com/](https://www.raycast.com/)
 
-## 一句话
+## Overview
 
 整理 Mac 上最常用的启动器、窗口管理、包管理、终端、截图、播放器和虚拟化工具。
 
-## 为什么值得收藏
+## Scope
 
-macOS 效率工具是 GitHub 和中文社区长期热门题材，适合做成可持续更新榜单。
+本页只收录与该主题直接相关、入口稳定、说明清晰的资源。优先选择官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
 
-## 精选入口
+## Resources
 
-| 名称 | 用途 |
+| Resource | Use case |
 | --- | --- |
 | [Homebrew](https://brew.sh/) | macOS 包管理器。 |
 | [Raycast](https://www.raycast.com/) | 启动器、快捷命令和 AI 工作流。 |
@@ -29,22 +29,22 @@ macOS 效率工具是 GitHub 和中文社区长期热门题材，适合做成可
 | [Shottr](https://shottr.cc/) | 截图和标注工具。 |
 | [IINA](https://iina.io/) | 现代 macOS 视频播放器。 |
 
-## 快速上手
+## Recommended Path
 
-1. 先装 Homebrew，再装窗口管理和终端工具。
-2. 启动器只选一个主力，不要 Raycast/Alfred 混乱使用。
+1. 先安装 Homebrew，再配置窗口管理和终端工具。
+2. 启动器建议固定一个主力工具，避免重复配置。
 3. 开发者优先配置终端和容器环境。
 
-## 常见坑
+## Notes
 
-- 不要安装来源不明的破解工具。
-- 权限类工具要注意辅助功能和屏幕录制权限。
+- 避免安装来源不明的破解工具。
+- 权限类工具需关注辅助功能、屏幕录制和自动化权限。
 
-## 维护建议
+## Maintenance
 
-- 如果某个工具出现价格、额度、开源状态或官网迁移，请优先改本页链接和说明。
-- 如果补图，请使用官方公开页面截图，并保留来源链接。
-- 如果新增入口，请写清楚它解决什么问题，避免变成无差别链接农场。
+- Update links when official pages, pricing, quotas, or open-source status change.
+- Use screenshots from public official pages and keep the source URL.
+- Describe the concrete use case for each new entry.
 
 ---
 

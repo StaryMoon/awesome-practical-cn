@@ -2,23 +2,23 @@
 
 ![设计素材、图标与配图资源](../../assets/screenshots/design-assets-icons.png)
 
-> 分类：**设计 / 素材**
+> Category: **设计 / 素材**
 >
-> 适合：做 README、论文图、PPT、网页和产品 demo 的人
+> Audience: 做 README、论文图、PPT、网页和产品 demo 的人
 >
-> 截图来源：[https://github.com/tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons)
+> Screenshot: [https://github.com/tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons)
 
-## 一句话
+## Overview
 
 整理图标、插图、字体、图片、动效和设计模板入口，强调授权和可商用边界。
 
-## 为什么值得收藏
+## Scope
 
-很多项目 README 差在视觉第一眼，这类资源贴能立刻提升开源项目质感。
+本页只收录与该主题直接相关、入口稳定、说明清晰的资源。优先选择官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
 
-## 精选入口
+## Resources
 
-| 名称 | 用途 |
+| Resource | Use case |
 | --- | --- |
 | [Figma Templates](https://www.figma.com/templates/) | Figma 官方模板入口。 |
 | [Material Symbols](https://fonts.google.com/icons) | Google 官方图标库。 |
@@ -29,22 +29,22 @@
 | [Pexels](https://www.pexels.com/) | 免费图片和视频素材。 |
 | [LottieFiles](https://lottiefiles.com/) | Lottie 动效素材和工具。 |
 
-## 快速上手
+## Recommended Path
 
-1. README 首屏先做一张清晰封面图。
-2. 图标统一风格，不要混用太多体系。
-3. 每次使用素材都检查 license。
+1. README 首屏先提供清晰封面图。
+2. 图标保持统一风格，避免混用过多体系。
+3. 使用素材前检查 license 和授权范围。
 
-## 常见坑
+## Notes
 
-- 不要默认网上图片都可商用。
-- 不要在论文或商业项目里使用来源不明素材。
+- 网络图片不默认具备商用授权。
+- 论文和商业项目应避免使用来源不明的素材。
 
-## 维护建议
+## Maintenance
 
-- 如果某个工具出现价格、额度、开源状态或官网迁移，请优先改本页链接和说明。
-- 如果补图，请使用官方公开页面截图，并保留来源链接。
-- 如果新增入口，请写清楚它解决什么问题，避免变成无差别链接农场。
+- Update links when official pages, pricing, quotas, or open-source status change.
+- Use screenshots from public official pages and keep the source URL.
+- Describe the concrete use case for each new entry.
 
 ---
 

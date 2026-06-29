@@ -2,23 +2,23 @@
 
 ![GitHub 开源项目包装与发布](../../assets/screenshots/github-project-packaging.png)
 
-> 分类：**GitHub / 开源**
+> Category: **GitHub / 开源**
 >
-> 适合：想让项目更像正式开源产品的人
+> Audience: 想让项目更像正式开源产品的人
 >
-> 截图来源：[https://github.com/badges/shields](https://github.com/badges/shields)
+> Screenshot: [https://github.com/badges/shields](https://github.com/badges/shields)
 
-## 一句话
+## Overview
 
 整理 README、badge、Pages、release、贡献者、star history、部署和项目展示工具。
 
-## 为什么值得收藏
+## Scope
 
-很多人代码能写，但项目不会包装；这类清单直接服务 GitHub 涨星和面试展示。
+本页只收录与该主题直接相关、入口稳定、说明清晰的资源。优先选择官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
 
-## 精选入口
+## Resources
 
-| 名称 | 用途 |
+| Resource | Use case |
 | --- | --- |
 | [GitHub README Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) | 官方 README 说明。 |
 | [Shields.io](https://shields.io/) | Badge 生成。 |
@@ -29,22 +29,22 @@
 | [Star History](https://star-history.com/) | star 增长图。 |
 | [all-contributors](https://allcontributors.org/) | 贡献者展示规范。 |
 
-## 快速上手
+## Recommended Path
 
 1. README 首屏必须说清楚项目解决什么。
 2. 放截图、安装、Quick Start、FAQ 和 License。
 3. 每次功能更新都发 release。
 
-## 常见坑
+## Notes
 
-- 不要在无关 issue 里硬广。
-- 截图和 demo 链接比口号重要。
+- 避免在无关 issue 中发布推广信息。
+- 截图、demo 链接和可复现示例比口号更重要。
 
-## 维护建议
+## Maintenance
 
-- 如果某个工具出现价格、额度、开源状态或官网迁移，请优先改本页链接和说明。
-- 如果补图，请使用官方公开页面截图，并保留来源链接。
-- 如果新增入口，请写清楚它解决什么问题，避免变成无差别链接农场。
+- Update links when official pages, pricing, quotas, or open-source status change.
+- Use screenshots from public official pages and keep the source URL.
+- Describe the concrete use case for each new entry.
 
 ---
 

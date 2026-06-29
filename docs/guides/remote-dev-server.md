@@ -2,23 +2,23 @@
 
 ![远程开发、服务器与内网穿透](../../assets/screenshots/remote-dev-server.png)
 
-> 分类：**开发 / 服务器**
+> Category: **开发 / 服务器**
 >
-> 适合：学生服务器、实验室 GPU、远程办公和个人服务部署用户
+> Audience: 学生服务器、实验室 GPU、远程办公和个人服务部署用户
 >
-> 截图来源：[https://tailscale.com/](https://tailscale.com/)
+> Screenshot: [https://tailscale.com/](https://tailscale.com/)
 
-## 一句话
+## Overview
 
 整理 SSH、远程编辑、文件同步、隧道、终端复用和跨设备组网工具。
 
-## 为什么值得收藏
+## Scope
 
-学生党最常见痛点是连不上服务器、传文件慢、端口转发乱，这类工具贴很实用。
+本页只收录与该主题直接相关、入口稳定、说明清晰的资源。优先选择官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
 
-## 精选入口
+## Resources
 
-| 名称 | 用途 |
+| Resource | Use case |
 | --- | --- |
 | [VS Code Remote SSH](https://code.visualstudio.com/docs/remote/ssh) | VS Code 远程开发官方文档。 |
 | [Tailscale](https://tailscale.com/) | 基于 WireGuard 的组网工具。 |
@@ -29,22 +29,22 @@
 | [rsync](https://rsync.samba.org/) | 增量文件同步。 |
 | [rclone](https://rclone.org/) | 云盘和远程存储同步工具。 |
 
-## 快速上手
+## Recommended Path
 
 1. 先保证 SSH key 登录稳定。
 2. 长任务必须用 tmux。
 3. 跨网络访问优先考虑 Tailscale 或 Cloudflare Tunnel。
 
-## 常见坑
+## Notes
 
-- 不要把端口裸奔到公网。
-- 不要把私钥上传到服务器或网盘。
+- 避免将服务端口直接暴露到公网。
+- 私钥不得上传到服务器、网盘或公共仓库。
 
-## 维护建议
+## Maintenance
 
-- 如果某个工具出现价格、额度、开源状态或官网迁移，请优先改本页链接和说明。
-- 如果补图，请使用官方公开页面截图，并保留来源链接。
-- 如果新增入口，请写清楚它解决什么问题，避免变成无差别链接农场。
+- Update links when official pages, pricing, quotas, or open-source status change.
+- Use screenshots from public official pages and keep the source URL.
+- Describe the concrete use case for each new entry.
 
 ---
 

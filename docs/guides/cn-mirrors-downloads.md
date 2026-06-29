@@ -2,23 +2,23 @@
 
 ![中文开源镜像与下载加速](../../assets/screenshots/cn-mirrors-downloads.png)
 
-> 分类：**下载 / 镜像**
+> Category: **下载 / 镜像**
 >
-> 适合：国内开发者、学生、服务器用户
+> Audience: 国内开发者、学生、服务器用户
 >
-> 截图来源：[https://github.com/tuna/tunasync](https://github.com/tuna/tunasync)
+> Screenshot: [https://github.com/tuna/tunasync](https://github.com/tuna/tunasync)
 
-## 一句话
+## Overview
 
 整理国内高校和厂商开源镜像、包管理加速和常见开发依赖下载入口。
 
-## 为什么值得收藏
+## Scope
 
-下载慢是中文开发者高频痛点，镜像站总表非常实用。
+本页只收录与该主题直接相关、入口稳定、说明清晰的资源。优先选择官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
 
-## 精选入口
+## Resources
 
-| 名称 | 用途 |
+| Resource | Use case |
 | --- | --- |
 | [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/) | 国内常用高校镜像站。 |
 | [中国科学技术大学镜像站](https://mirrors.ustc.edu.cn/) | 中科大开源镜像。 |
@@ -29,22 +29,22 @@
 | [TUNA Anaconda 帮助](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/) | conda/anaconda 镜像配置。 |
 | [TUNA PyPI 帮助](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/) | pip 镜像配置。 |
 
-## 快速上手
+## Recommended Path
 
 1. 优先使用高校镜像官方帮助页配置。
 2. 项目 README 里写清楚镜像只是加速，不是依赖来源。
 3. 服务器上固定配置 pip/conda/npm 镜像。
 
-## 常见坑
+## Notes
 
-- 不要从来路不明的网盘下载开发工具。
-- 镜像同步有延迟，版本异常时先回官方源确认。
+- 避免从来源不明的网盘下载开发工具。
+- 镜像同步存在延迟，版本异常时先回官方源确认。
 
-## 维护建议
+## Maintenance
 
-- 如果某个工具出现价格、额度、开源状态或官网迁移，请优先改本页链接和说明。
-- 如果补图，请使用官方公开页面截图，并保留来源链接。
-- 如果新增入口，请写清楚它解决什么问题，避免变成无差别链接农场。
+- Update links when official pages, pricing, quotas, or open-source status change.
+- Use screenshots from public official pages and keep the source URL.
+- Describe the concrete use case for each new entry.
 
 ---
 

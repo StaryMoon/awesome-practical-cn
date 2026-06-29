@@ -2,23 +2,23 @@
 
 ![免费电子书与公开课程](../../assets/screenshots/free-books-courses.png)
 
-> 分类：**学习 / 课程**
+> Category: **学习 / 课程**
 >
-> 适合：自学编程、数学、AI、计算机基础的人
+> Audience: 自学编程、数学、AI、计算机基础的人
 >
-> 截图来源：[https://github.com/EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
+> Screenshot: [https://github.com/EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
-## 一句话
+## Overview
 
 整理合法免费的编程书、公开课、大学课程和自学路线，避免被盗版资源和低质课浪费时间。
 
-## 为什么值得收藏
+## Scope
 
-电子书和课程资源是 GitHub 上最容易爆的题材之一，长期有搜索需求。
+本页只收录与该主题直接相关、入口稳定、说明清晰的资源。优先选择官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
 
-## 精选入口
+## Resources
 
-| 名称 | 用途 |
+| Resource | Use case |
 | --- | --- |
 | [free-programming-books](https://github.com/EbookFoundation/free-programming-books) | GitHub 超高星免费编程书列表。 |
 | [MIT OpenCourseWare](https://ocw.mit.edu/) | MIT 官方公开课程。 |
@@ -29,22 +29,22 @@
 | [Khan Academy](https://www.khanacademy.org/) | 数学和基础学科学习。 |
 | [edX](https://www.edx.org/) | 大学和机构在线课程平台。 |
 
-## 快速上手
+## Recommended Path
 
-1. 先选一条路线，不要同时收藏 200 门课。
-2. 课程配套作业比视频更重要。
+1. 先选择一条主线课程，避免同时维护过多学习入口。
+2. 课程配套作业比视频观看更重要。
 3. 用 GitHub README 记录已完成章节。
 
-## 常见坑
+## Notes
 
-- 不要把收藏当学习。
-- 不要下载侵权盗版包，官方公开课已经足够多。
+- 收藏资源不等于完成学习。
+- 避免下载侵权盗版包，优先使用官方公开课和合法教材。
 
-## 维护建议
+## Maintenance
 
-- 如果某个工具出现价格、额度、开源状态或官网迁移，请优先改本页链接和说明。
-- 如果补图，请使用官方公开页面截图，并保留来源链接。
-- 如果新增入口，请写清楚它解决什么问题，避免变成无差别链接农场。
+- Update links when official pages, pricing, quotas, or open-source status change.
+- Use screenshots from public official pages and keep the source URL.
+- Describe the concrete use case for each new entry.
 
 ---
 

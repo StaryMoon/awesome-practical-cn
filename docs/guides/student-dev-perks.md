@@ -1,24 +1,24 @@
-# 学生党 AI 与开发者福利
+# 学生开发者福利清单
 
-![学生党 AI 与开发者福利](../../assets/screenshots/student-dev-perks.png)
+![学生开发者福利清单](../../assets/screenshots/student-dev-perks.png)
 
-> 分类：**学生 / 福利**
+> Category: **学生 / 福利**
 >
-> 适合：本科生、研究生、刚开始做项目的学生
+> Audience: 本科生、研究生、刚开始做项目的学生
 >
-> 截图来源：[https://github.com/github-education-resources](https://github.com/github-education-resources)
+> Screenshot: [https://github.com/github-education-resources](https://github.com/github-education-resources)
 
-## 一句话
+## Overview
 
 整理学生身份可申请的开发工具、云服务、设计工具、笔记工具和教育优惠入口。
 
-## 为什么值得收藏
+## Scope
 
-学生福利长期有搜索需求，且很多入口分散、资格规则变化快，中文总表非常容易被转发。
+本页只收录与该主题直接相关、入口稳定、说明清晰的资源。优先选择官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
 
-## 精选入口
+## Resources
 
-| 名称 | 用途 |
+| Resource | Use case |
 | --- | --- |
 | [GitHub Student Developer Pack](https://education.github.com/pack) | 学生开发者福利总入口。 |
 | [GitHub Education](https://education.github.com/) | GitHub 教育认证与校园资源。 |
@@ -29,22 +29,22 @@
 | [Canva Education](https://www.canva.com/education/) | Canva 教育资源。 |
 | [Namecheap Education](https://nc.me/) | 学生域名相关优惠入口。 |
 
-## 快速上手
+## Recommended Path
 
 1. 准备学校邮箱、学生证或学信/学校证明。
 2. 先申请 GitHub Student Pack，因为它会解锁一串开发工具。
 3. 记录每个福利的续期时间。
 
-## 常见坑
+## Notes
 
-- 不要用来路不明的教育邮箱。
-- 免费额度也可能产生付费账单，云服务一定要设预算告警。
+- 避免使用来源不明的教育邮箱或账号代认证服务。
+- 云服务免费额度仍可能产生付费账单，建议设置预算和告警。
 
-## 维护建议
+## Maintenance
 
-- 如果某个工具出现价格、额度、开源状态或官网迁移，请优先改本页链接和说明。
-- 如果补图，请使用官方公开页面截图，并保留来源链接。
-- 如果新增入口，请写清楚它解决什么问题，避免变成无差别链接农场。
+- Update links when official pages, pricing, quotas, or open-source status change.
+- Use screenshots from public official pages and keep the source URL.
+- Describe the concrete use case for each new entry.
 
 ---
 

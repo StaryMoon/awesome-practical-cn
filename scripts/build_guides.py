@@ -20,20 +20,20 @@ GUIDES = [
         "category": "AI / 编程",
         "audience": "学生、研究生、开发者、开源维护者",
         "hero_url": "https://github.com/openai/codex",
-        "summary": "把 Codex、Claude Code、Gemini CLI、Cursor、Cline、Aider、Continue 等工具按工作流重新分类，帮助中文用户快速判断该装什么、该避开什么。",
+        "summary": "按工作流整理 Codex、Claude Code、Gemini CLI、Cursor、Cline、Aider、Continue 等 AI 编程工具，帮助中文用户快速比较工具定位、适用场景和风险点。",
         "why_hot": "AI coding 工具正在从补全走向 agent，中文资料常常只讲情绪不讲选型，这类页面很适合被搜索和收藏。",
         "entries": [
             ["OpenAI Codex CLI", "https://github.com/openai/codex", "终端 coding agent，适合本地仓库修改、测试、PR 小修。"],
             ["Claude Code", "https://docs.anthropic.com/en/docs/claude-code/overview", "Claude 生态 coding agent，适合长上下文和复杂任务拆解。"],
             ["Gemini CLI", "https://github.com/google-gemini/gemini-cli", "Google Gemini 生态终端 agent，开源且热度高。"],
-            ["Cursor", "https://cursor.com/", "AI-first editor，适合想要开箱即用 IDE 体验的人。"],
+            ["Cursor", "https://cursor.com/", "AI-first editor，适合需要完整 IDE 体验的用户。"],
             ["Cline", "https://github.com/cline/cline", "VS Code 内开源 autonomous coding agent。"],
             ["Aider", "https://github.com/Aider-AI/aider", "Git/diff 驱动的经典终端 AI pair programmer。"],
             ["Continue", "https://github.com/continuedev/continue", "开源 AI coding assistant 平台，适合团队自定义。"],
             ["Qwen Code", "https://github.com/QwenLM/qwen-code", "Qwen 生态终端 coding agent，中文用户值得关注。"],
         ],
         "quick_start": ["先选一种工作流：终端 agent、AI IDE、VS Code 插件。", "小仓库试用：让工具读 README、修 bug、跑测试。", "确认成本和权限后再交给它改大仓库。"],
-        "pitfalls": ["不要把生产密钥交给 agent。", "不要只看 star，要看是否适合你的编辑器和模型生态。"],
+        "pitfalls": ["避免向 agent 暴露生产密钥。", "评估工具时同时关注编辑器适配、模型生态、权限边界和维护状态。"],
     },
     {
         "title": "LLM API 与模型平台入口",
@@ -54,10 +54,10 @@ GUIDES = [
             ["Replicate", "https://replicate.com/", "托管模型 API 和 demo 平台。"],
         ],
         "quick_start": ["先确定模型用途：文本、代码、视觉、语音或 embedding。", "把控制台、定价页、API 文档一起收藏。", "先写最小 demo，再接入生产。"],
-        "pitfalls": ["不要忽视地区、支付方式、速率限制。", "聚合平台方便，但生产场景要评估稳定性和隐私。"],
+        "pitfalls": ["优先确认地区、支付方式、速率限制和账单策略。", "生产场景需评估聚合平台的稳定性、隐私边界和服务可用性。"],
     },
     {
-        "title": "学生党 AI 与开发者福利",
+        "title": "学生开发者福利清单",
         "slug": "student-dev-perks",
         "category": "学生 / 福利",
         "audience": "本科生、研究生、刚开始做项目的学生",
@@ -75,7 +75,7 @@ GUIDES = [
             ["Namecheap Education", "https://nc.me/", "学生域名相关优惠入口。"],
         ],
         "quick_start": ["准备学校邮箱、学生证或学信/学校证明。", "先申请 GitHub Student Pack，因为它会解锁一串开发工具。", "记录每个福利的续期时间。"],
-        "pitfalls": ["不要用来路不明的教育邮箱。", "免费额度也可能产生付费账单，云服务一定要设预算告警。"],
+        "pitfalls": ["避免使用来源不明的教育邮箱或账号代认证服务。", "云服务免费额度仍可能产生付费账单，建议设置预算和告警。"],
     },
     {
         "title": "科研论文检索与阅读工具",
@@ -96,7 +96,7 @@ GUIDES = [
             ["Overleaf", "https://www.overleaf.com/", "在线 LaTeX 协作写作。"],
         ],
         "quick_start": ["先用 Semantic Scholar/Papers with Code 找种子论文。", "用 Connected Papers 扩展相关工作。", "全部进 Zotero，再用标签和笔记管理。"],
-        "pitfalls": ["不要只看引用数，高引用老论文和最新强相关论文都要看。", "AI 摘要不能替代读方法和实验设置。"],
+        "pitfalls": ["引用数只能作为参考，仍需同时检查经典论文和最新强相关工作。", "AI 摘要不能替代方法、实验设置和消融结果的人工核对。"],
     },
     {
         "title": "免费电子书与公开课程",
@@ -105,7 +105,7 @@ GUIDES = [
         "audience": "自学编程、数学、AI、计算机基础的人",
         "hero_url": "https://github.com/EbookFoundation/free-programming-books",
         "summary": "整理合法免费的编程书、公开课、大学课程和自学路线，避免被盗版资源和低质课浪费时间。",
-        "why_hot": "电子书和课程资源是 GitHub 上最容易爆的题材之一，长期有搜索需求。",
+        "why_hot": "电子书和公开课程具备长期检索需求，适合维护为结构化资源索引。",
         "entries": [
             ["free-programming-books", "https://github.com/EbookFoundation/free-programming-books", "GitHub 超高星免费编程书列表。"],
             ["MIT OpenCourseWare", "https://ocw.mit.edu/", "MIT 官方公开课程。"],
@@ -116,8 +116,8 @@ GUIDES = [
             ["Khan Academy", "https://www.khanacademy.org/", "数学和基础学科学习。"],
             ["edX", "https://www.edx.org/", "大学和机构在线课程平台。"],
         ],
-        "quick_start": ["先选一条路线，不要同时收藏 200 门课。", "课程配套作业比视频更重要。", "用 GitHub README 记录已完成章节。"],
-        "pitfalls": ["不要把收藏当学习。", "不要下载侵权盗版包，官方公开课已经足够多。"],
+        "quick_start": ["先选择一条主线课程，避免同时维护过多学习入口。", "课程配套作业比视频观看更重要。", "用 GitHub README 记录已完成章节。"],
+        "pitfalls": ["收藏资源不等于完成学习。", "避免下载侵权盗版包，优先使用官方公开课和合法教材。"],
     },
     {
         "title": "设计素材、图标与配图资源",
@@ -137,8 +137,8 @@ GUIDES = [
             ["Pexels", "https://www.pexels.com/", "免费图片和视频素材。"],
             ["LottieFiles", "https://lottiefiles.com/", "Lottie 动效素材和工具。"],
         ],
-        "quick_start": ["README 首屏先做一张清晰封面图。", "图标统一风格，不要混用太多体系。", "每次使用素材都检查 license。"],
-        "pitfalls": ["不要默认网上图片都可商用。", "不要在论文或商业项目里使用来源不明素材。"],
+        "quick_start": ["README 首屏先提供清晰封面图。", "图标保持统一风格，避免混用过多体系。", "使用素材前检查 license 和授权范围。"],
+        "pitfalls": ["网络图片不默认具备商用授权。", "论文和商业项目应避免使用来源不明的素材。"],
     },
     {
         "title": "AI 图片、视频与音频生成工具",
@@ -159,7 +159,7 @@ GUIDES = [
             ["Suno", "https://suno.com/", "AI 音乐生成。"],
         ],
         "quick_start": ["商业项目先查授权。", "本地生成优先试 ComfyUI 工作流。", "视频工具先用免费额度做风格验证。"],
-        "pitfalls": ["不要上传敏感人脸和未授权素材。", "AI 生成内容用于公开传播时要注意平台规则。"],
+        "pitfalls": ["避免上传敏感人脸、未授权声音和未授权素材。", "AI 生成内容用于公开传播时需检查平台规则和授权范围。"],
     },
     {
         "title": "远程开发、服务器与内网穿透",
@@ -168,7 +168,7 @@ GUIDES = [
         "audience": "学生服务器、实验室 GPU、远程办公和个人服务部署用户",
         "hero_url": "https://tailscale.com/",
         "summary": "整理 SSH、远程编辑、文件同步、隧道、终端复用和跨设备组网工具。",
-        "why_hot": "学生党最常见痛点是连不上服务器、传文件慢、端口转发乱，这类工具贴很实用。",
+        "why_hot": "远程服务器、文件同步和端口转发是学生开发者与实验室环境中的高频基础需求。",
         "entries": [
             ["VS Code Remote SSH", "https://code.visualstudio.com/docs/remote/ssh", "VS Code 远程开发官方文档。"],
             ["Tailscale", "https://tailscale.com/", "基于 WireGuard 的组网工具。"],
@@ -180,7 +180,7 @@ GUIDES = [
             ["rclone", "https://rclone.org/", "云盘和远程存储同步工具。"],
         ],
         "quick_start": ["先保证 SSH key 登录稳定。", "长任务必须用 tmux。", "跨网络访问优先考虑 Tailscale 或 Cloudflare Tunnel。"],
-        "pitfalls": ["不要把端口裸奔到公网。", "不要把私钥上传到服务器或网盘。"],
+        "pitfalls": ["避免将服务端口直接暴露到公网。", "私钥不得上传到服务器、网盘或公共仓库。"],
     },
     {
         "title": "macOS 效率工具清单",
@@ -200,8 +200,8 @@ GUIDES = [
             ["Shottr", "https://shottr.cc/", "截图和标注工具。"],
             ["IINA", "https://iina.io/", "现代 macOS 视频播放器。"],
         ],
-        "quick_start": ["先装 Homebrew，再装窗口管理和终端工具。", "启动器只选一个主力，不要 Raycast/Alfred 混乱使用。", "开发者优先配置终端和容器环境。"],
-        "pitfalls": ["不要安装来源不明的破解工具。", "权限类工具要注意辅助功能和屏幕录制权限。"],
+        "quick_start": ["先安装 Homebrew，再配置窗口管理和终端工具。", "启动器建议固定一个主力工具，避免重复配置。", "开发者优先配置终端和容器环境。"],
+        "pitfalls": ["避免安装来源不明的破解工具。", "权限类工具需关注辅助功能、屏幕录制和自动化权限。"],
     },
     {
         "title": "Windows 效率与开发工具",
@@ -222,7 +222,7 @@ GUIDES = [
             ["WizTree", "https://diskanalyzer.com/", "磁盘空间分析工具。"],
         ],
         "quick_start": ["先装 PowerToys、Windows Terminal、winget。", "开发者再配置 WSL。", "文件搜索和截图工具能立刻提升效率。"],
-        "pitfalls": ["不要随便运行网上下载的 AHK 脚本。", "清理磁盘前先确认不是项目数据或缓存索引。"],
+        "pitfalls": ["运行第三方 AHK 脚本前需检查源码和权限。", "清理磁盘前先确认目标不是项目数据、索引或长期缓存。"],
     },
     {
         "title": "知识管理与 Obsidian 工作流",
@@ -231,7 +231,7 @@ GUIDES = [
         "audience": "写论文、记笔记、做项目复盘的人",
         "hero_url": "https://obsidian.md/",
         "summary": "整理 Markdown 笔记、双链、文献管理、稍后读、白板、图表和自动化工具。",
-        "why_hot": "Obsidian/Notion/Logseq 用户都有强烈迁移、插件、模板需求，中文资料天然有流量。",
+        "why_hot": "知识管理工具涉及迁移、插件、模板和文献协作，适合维护为稳定索引。",
         "entries": [
             ["Obsidian", "https://obsidian.md/", "本地 Markdown 知识库。"],
             ["Logseq", "https://logseq.com/", "开源大纲式知识管理。"],
@@ -242,7 +242,7 @@ GUIDES = [
             ["Mermaid", "https://mermaid.js.org/", "文本生成流程图。"],
             ["Excalidraw", "https://excalidraw.com/", "手绘风白板。"],
         ],
-        "quick_start": ["先确定信息入口：网页、论文、日记、项目。", "使用统一目录和模板，不要一开始沉迷插件。", "每周做一次整理和归档。"],
+        "quick_start": ["先确定信息入口：网页、论文、日记、项目。", "使用统一目录和模板，插件配置保持克制。", "每周做一次整理和归档。"],
         "pitfalls": ["知识库最大敌人是过度设计。", "云同步前要想清楚隐私和备份。"],
     },
     {
@@ -264,7 +264,7 @@ GUIDES = [
             ["Mathpix", "https://mathpix.com/", "公式和文档 OCR。"],
         ],
         "quick_start": ["扫描件先 OCR，再归档。", "论文 PDF 用 Zotero 管理，办公 PDF 用 Stirling/PDF24。", "大批量转换优先 Pandoc 或脚本。"],
-        "pitfalls": ["敏感文件不要上传到未知在线工具。", "OCR 结果必须人工核对。"],
+        "pitfalls": ["敏感文件不应上传到未知在线工具。", "OCR 结果必须人工核对。"],
     },
     {
         "title": "自托管服务与 NAS 工具",
@@ -285,7 +285,7 @@ GUIDES = [
             ["Uptime Kuma", "https://github.com/louislam/uptime-kuma", "自托管监控面板。"],
         ],
         "quick_start": ["先用 Docker Compose 管理服务。", "所有外网暴露服务都要有 HTTPS 和强密码。", "先搭备份，再搭相册和网盘。"],
-        "pitfalls": ["不要把管理面板直接暴露公网。", "家庭 NAS 最大风险不是部署失败，而是硬盘坏了没备份。"],
+        "pitfalls": ["避免将管理面板直接暴露到公网。", "家庭 NAS 的核心风险是缺少可靠备份，而不是部署失败。"],
     },
     {
         "title": "开源替代软件清单",
@@ -306,7 +306,7 @@ GUIDES = [
             ["OBS Studio", "https://obsproject.com/", "录屏和直播。"],
         ],
         "quick_start": ["先列出你正在用的付费工具。", "逐个找开源替代并试用一周。", "确认文件格式兼容后再迁移。"],
-        "pitfalls": ["开源不等于免费商用无条件，仍要看 license。", "不要为了开源而牺牲关键工作流稳定性。"],
+        "pitfalls": ["开源不等于无条件免费商用，仍需检查 license。", "替换核心软件前需验证文件兼容、协作流程和稳定性。"],
     },
     {
         "title": "量化交易、回测与行情数据",
@@ -327,7 +327,7 @@ GUIDES = [
             ["CCXT", "https://github.com/ccxt/ccxt", "加密交易所 API 统一库。"],
         ],
         "quick_start": ["只做纸交易，先跑 3 个月模拟。", "每个策略必须有最大回撤、手续费和滑点。", "用小资金之前先写风控规则。"],
-        "pitfalls": ["不要相信截图收益率。", "回测盈利不等于实盘盈利，本页不构成投资建议。"],
+        "pitfalls": ["截图收益率不能作为策略有效性的证据。", "回测盈利不等于实盘盈利，本页不构成投资建议。"],
     },
     {
         "title": "数据分析与可视化工具",
@@ -347,8 +347,8 @@ GUIDES = [
             ["Streamlit", "https://streamlit.io/", "快速构建数据 App。"],
             ["Apache Superset", "https://superset.apache.org/", "开源 BI 平台。"],
         ],
-        "quick_start": ["小数据先 Pandas，大数据/本地分析试 DuckDB/Polars。", "展示给别人看时用 Streamlit 或 Superset。", "论文图表先保证可复现。"],
-        "pitfalls": ["不要把图做得比数据更复杂。", "dashboard 上线前要处理权限和数据脱敏。"],
+        "quick_start": ["小数据先用 Pandas，大数据或本地分析优先试 DuckDB/Polars。", "对外交付可使用 Streamlit 或 Superset。", "论文图表优先保证可复现。"],
+        "pitfalls": ["图表复杂度不应超过数据表达需求。", "dashboard 上线前需处理权限控制和数据脱敏。"],
     },
     {
         "title": "API 调试与后端开发工具",
@@ -369,7 +369,7 @@ GUIDES = [
             ["Supabase", "https://supabase.com/", "开源 Firebase 替代。"],
         ],
         "quick_start": ["接口先写 OpenAPI，再调试。", "本地项目可用 Bruno 管理接口文件。", "Python 后端快速 demo 选 FastAPI。"],
-        "pitfalls": ["不要把生产 token 保存在公开 API collection。", "接口文档如果不跟 CI 走，很快会失真。"],
+        "pitfalls": ["生产 token 不应保存在公开 API collection。", "接口文档若不随 CI 或代码同步维护，很快会失真。"],
     },
     {
         "title": "GitHub 开源项目包装与发布",
@@ -390,7 +390,7 @@ GUIDES = [
             ["all-contributors", "https://allcontributors.org/", "贡献者展示规范。"],
         ],
         "quick_start": ["README 首屏必须说清楚项目解决什么。", "放截图、安装、Quick Start、FAQ 和 License。", "每次功能更新都发 release。"],
-        "pitfalls": ["不要在无关 issue 里硬广。", "截图和 demo 链接比口号重要。"],
+        "pitfalls": ["避免在无关 issue 中发布推广信息。", "截图、demo 链接和可复现示例比口号更重要。"],
     },
     {
         "title": "隐私、安全与密码管理工具",
@@ -411,7 +411,7 @@ GUIDES = [
             ["age", "https://github.com/FiloSottile/age", "简单现代的文件加密工具。"],
         ],
         "quick_start": ["先启用密码管理器和两步验证。", "重要账号使用独立邮箱和独立密码。", "定期查泄露并轮换密码。"],
-        "pitfalls": ["不要复用密码。", "不要把 2FA 恢复码放在同一个云笔记里。"],
+        "pitfalls": ["避免复用密码。", "2FA 恢复码不应与账号密码存放在同一云笔记中。"],
     },
     {
         "title": "中文开源镜像与下载加速",
@@ -432,7 +432,7 @@ GUIDES = [
             ["TUNA PyPI 帮助", "https://mirrors.tuna.tsinghua.edu.cn/help/pypi/", "pip 镜像配置。"],
         ],
         "quick_start": ["优先使用高校镜像官方帮助页配置。", "项目 README 里写清楚镜像只是加速，不是依赖来源。", "服务器上固定配置 pip/conda/npm 镜像。"],
-        "pitfalls": ["不要从来路不明的网盘下载开发工具。", "镜像同步有延迟，版本异常时先回官方源确认。"],
+        "pitfalls": ["避免从来源不明的网盘下载开发工具。", "镜像同步存在延迟，版本异常时先回官方源确认。"],
     },
 ]
 
@@ -477,46 +477,45 @@ def write_readme() -> None:
     )
     readme = f"""# Awesome Practical CN
 
-> 20 个中文实用信息汇总贴：AI 工具、学生福利、科研论文、免费课程、设计素材、远程开发、效率工具、PDF/OCR、自托管、量化、镜像站等。
+> 面向中文用户的实用工具与资源索引，覆盖 AI 工具、学生福利、科研论文、公开课程、设计素材、远程开发、效率工具、PDF/OCR、自托管、量化、镜像站等主题。
 
 <p align="center">
   <img src="assets/cover.svg" alt="Awesome Practical CN cover" width="920">
 </p>
 
-## 为什么做这个
+## Overview
 
-中文互联网上不缺碎片链接，缺的是可以直接收藏、转发、持续维护的高质量总表。本仓库把不同领域的常用入口整理成 20 个独立专题，每个专题都包含：
+本仓库将高频使用的工具、文档、开源项目和官方入口整理为 20 个独立专题。每个专题保留明确的使用场景、资源表、推荐路径、注意事项和公开页面截图，适合快速检索、收藏和二次维护。
 
-- 一句话定位
-- 官方入口 / 下载入口 / GitHub 链接
-- 适合谁
-- 快速上手顺序
-- 常见坑
-- 官方公开页面截图与来源链接
+- 官方入口 / 下载入口 / GitHub 仓库
+- 适用场景和目标用户
+- 推荐使用路径
+- 关键注意事项
+- 公开页面截图和来源链接
 
-> 截图说明：本仓库优先使用官方公开网页的自动截图，并在每个专题页标注截图来源。若某网站禁止自动截图或页面不可访问，则保留来源链接并等待人工补图。
+> Screenshot policy: screenshots are captured from official or public landing pages and include source URLs in each guide. If a page blocks automated capture, the guide keeps the source link and waits for a manual refresh.
 
-## 热门专题预览
+## Featured Guides
 
 <p>
 {hot_cards}
 </p>
 
-## 20 个专题
+## Guides
 
-| # | 专题 | 分类 | 适合人群 | 链接数 |
+| # | Guide | Category | Audience | Links |
 | ---: | --- | --- | --- | ---: |
 {chr(10).join(rows)}
 
-## 维护原则
+## Curation Policy
 
 - 只收官方入口、官方文档、知名开源仓库和相对稳定的资源页。
-- 不收盗版资源、破解软件、返利链接、来路不明网盘。
-- 每个链接都要说明用途，不做单纯堆链接。
+- 不收盗版资源、破解软件、返利链接和来源不明的安装包。
+- 每个链接必须说明用途，不做无上下文的链接堆叠。
 - 截图必须来自公开页面，且在专题页保留来源。
-- 面向中文用户写结论，尽量减少英文资料的理解成本。
+- 面向中文用户写作，优先给出可执行的判断和入口。
 
-## 本地生成
+## Generate Locally
 
 ```bash
 python3 scripts/build_guides.py
@@ -524,13 +523,13 @@ python3 scripts/capture_screenshots.py
 python3 scripts/validate_links.py
 ```
 
-## 贡献
+## Contributing
 
-欢迎补充新专题、替换失效链接、提交更清晰的官方截图。提交前请先看 [CONTRIBUTING.md](CONTRIBUTING.md)。
+欢迎提交新专题、失效链接修复、说明更新和公开页面截图。提交前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## License
 
-MIT. 第三方网站截图和商标归原权利方所有，本仓库仅做导航、评论和信息整理。
+MIT. Third-party trademarks, screenshots, and website content belong to their respective owners.
 """
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
 
@@ -546,39 +545,39 @@ def write_guides() -> None:
 
 ![{guide['title']}](../../assets/screenshots/{guide['slug']}.png)
 
-> 分类：**{guide['category']}**
+> Category: **{guide['category']}**
 >
-> 适合：{guide['audience']}
+> Audience: {guide['audience']}
 >
-> 截图来源：[{guide['hero_url']}]({guide['hero_url']})
+> Screenshot: [{guide['hero_url']}]({guide['hero_url']})
 
-## 一句话
+## Overview
 
 {guide['summary']}
 
-## 为什么值得收藏
+## Scope
 
-{guide['why_hot']}
+本页只收录与该主题直接相关、入口稳定、说明清晰的资源。优先选择官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
 
-## 精选入口
+## Resources
 
-| 名称 | 用途 |
+| Resource | Use case |
 | --- | --- |
 {entries}
 
-## 快速上手
+## Recommended Path
 
 {quick}
 
-## 常见坑
+## Notes
 
 {pitfalls}
 
-## 维护建议
+## Maintenance
 
-- 如果某个工具出现价格、额度、开源状态或官网迁移，请优先改本页链接和说明。
-- 如果补图，请使用官方公开页面截图，并保留来源链接。
-- 如果新增入口，请写清楚它解决什么问题，避免变成无差别链接农场。
+- Update links when official pages, pricing, quotas, or open-source status change.
+- Use screenshots from public official pages and keep the source URL.
+- Describe the concrete use case for each new entry.
 
 ---
 
@@ -633,13 +632,13 @@ def write_auxiliary_files() -> None:
             """\
             # Contributing
 
-            欢迎补充中文实用信息汇总。
+            欢迎补充中文实用工具与资源索引。
 
             ## 收录标准
 
-            - 优先官方入口、官方文档、知名开源仓库、稳定资源站。
+            - 优先官方入口、官方文档、知名开源仓库和长期稳定的资源页。
             - 每个链接必须说明用途。
-            - 不收盗版、破解、灰产、返利链接和来路不明网盘。
+            - 不收盗版、破解、灰产、返利链接和来源不明的安装包。
             - 截图优先来自官方公开页面，并保留来源链接。
 
             ## 修改方式
@@ -686,9 +685,9 @@ def write_auxiliary_files() -> None:
 
             ## 内容风格
 
-            - 中文结论前置。
+            - 结论前置，表述简明。
             - 每个链接必须解释用途。
-            - 每页既要能收藏，也要能直接发给朋友。
+            - 避免营销语、第一人称和无上下文链接堆叠。
             """
         ),
         encoding="utf-8",
