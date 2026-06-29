@@ -57,6 +57,33 @@
 | 19 | [隐私、安全与密码管理工具](docs/guides/privacy-security.md) | 安全 / 隐私 | 学生、开发者、远程办公和注重隐私的人 | 8 |
 | 20 | [中文开源镜像与下载加速](docs/guides/cn-mirrors-downloads.md) | 下载 / 镜像 | 国内开发者、学生、服务器用户 | 8 |
 
+## 20 个独立仓库版本
+
+如果只想收藏某一个方向，可以直接看拆分后的独立仓库：
+
+| 方向 | 独立仓库 |
+| --- | --- |
+| AI 编程工具 | [cn-ai-coding-toolbox](https://github.com/StaryMoon/cn-ai-coding-toolbox) |
+| LLM API 入口 | [cn-llm-api-map](https://github.com/StaryMoon/cn-llm-api-map) |
+| 学生开发者福利 | [cn-student-dev-perks](https://github.com/StaryMoon/cn-student-dev-perks) |
+| 科研论文工具 | [cn-research-paper-toolbox](https://github.com/StaryMoon/cn-research-paper-toolbox) |
+| 免费书与公开课 | [cn-free-books-courses](https://github.com/StaryMoon/cn-free-books-courses) |
+| 设计素材与图标 | [cn-design-assets-map](https://github.com/StaryMoon/cn-design-assets-map) |
+| AI 图片视频音频 | [cn-ai-media-tools](https://github.com/StaryMoon/cn-ai-media-tools) |
+| 远程开发与服务器 | [cn-remote-dev-handbook](https://github.com/StaryMoon/cn-remote-dev-handbook) |
+| macOS 效率工具 | [cn-macos-productivity](https://github.com/StaryMoon/cn-macos-productivity) |
+| Windows 效率工具 | [cn-windows-productivity](https://github.com/StaryMoon/cn-windows-productivity) |
+| 知识管理工作流 | [cn-knowledge-workflow](https://github.com/StaryMoon/cn-knowledge-workflow) |
+| PDF 与 OCR | [cn-pdf-ocr-toolbox](https://github.com/StaryMoon/cn-pdf-ocr-toolbox) |
+| 自托管与 NAS | [cn-selfhosted-nas](https://github.com/StaryMoon/cn-selfhosted-nas) |
+| 开源替代软件 | [cn-open-source-alternatives](https://github.com/StaryMoon/cn-open-source-alternatives) |
+| 量化交易与回测 | [cn-quant-trading-toolbox](https://github.com/StaryMoon/cn-quant-trading-toolbox) |
+| 数据分析与可视化 | [cn-data-viz-toolbox](https://github.com/StaryMoon/cn-data-viz-toolbox) |
+| API 与后端工具 | [cn-api-backend-tools](https://github.com/StaryMoon/cn-api-backend-tools) |
+| GitHub 项目包装 | [cn-github-project-polish](https://github.com/StaryMoon/cn-github-project-polish) |
+| 隐私安全与密码管理 | [cn-privacy-security-toolbox](https://github.com/StaryMoon/cn-privacy-security-toolbox) |
+| 中文镜像与下载加速 | [cn-mirrors-download-guide](https://github.com/StaryMoon/cn-mirrors-download-guide) |
+
 ## 维护原则
 
 - 只收官方入口、官方文档、知名开源仓库和相对稳定的资源页。
